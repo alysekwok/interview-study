@@ -1,4 +1,4 @@
-package hackerrank;
+
 
 /*
 Given a square matrix, calculate the absolute difference between the sums of its diagonals.
@@ -10,6 +10,8 @@ left to right diagonal is 1 + 5 + 9 = 15
 right to left diagonal is 3 + 5 + 9 = 17
 the difference is |15 - 17| = 2
 */
+
+package hackerrank;
 
 public class DiagonalDifference {
     

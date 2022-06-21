@@ -23,7 +23,6 @@ import java.util.List;
 class LonelyInteger {
     public static int lonelyIntegerSolution(List<Integer> arr) {
         Map<Integer, Integer> hashmap = new HashMap<Integer, Integer>();
-        // ArrayList<Integer> arrList = (ArrayList) arr;
         for (Integer num : arr) {
             if (hashmap.containsKey(num)) {
                 hashmap.replace(num, hashmap.get(num) + 1);
