@@ -38,11 +38,10 @@ def twoSumv2(nums, target):
     hashmap = {}
     for index in range(len(nums)):
         difference = target - nums[index]
-        # print(difference)
-        # if difference in hashmap:
-        #     return [index, hashmap[difference]]
+        if difference in hashmap:
+            return [index, hashmap[difference]]
         hashmap[nums[index]] = index
-    print(hashmap)
+
 
 # test cases     
 nums = [2, 11, 7, 15]
